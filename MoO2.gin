@@ -1,0 +1,12 @@
+single pot dist
+cell
+5.61098 4.88626 5.62857 90.00 120.951 90.00
+fractional
+Mo c   0.231645 0.991596 0.016445
+O  c   0.11236  0.21716  0.23355
+O  c   0.39086  0.69696  0.29876
+space group
+14
+species
+Mo    core   4.00
+O     core  -2.00

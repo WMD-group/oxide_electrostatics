@@ -1,0 +1,11 @@
+single pot dist
+cell
+4.9612 4.9612 3.3852 90.00 90.00 90.00
+fractional
+Pb  c   0.0000 0.0000 0.0000
+O   c   0.3050 0.3050 0.0000
+space group
+136
+species
+Pb   core   4.00
+O    core  -2.00

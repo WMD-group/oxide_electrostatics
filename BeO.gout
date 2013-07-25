@@ -1,0 +1,147 @@
+********************************************************************************
+*                       GENERAL UTILITY LATTICE PROGRAM                        *
+*                                 Julian Gale                                  *
+*                      Nanochemistry Research Institute                        *
+*             Curtin University of Technology, Western Australia               *
+********************************************************************************
+* Version = 3.4.9 * Last modified =   9th February 2010                        *
+********************************************************************************
+*  single       - perform a single point run                                   *
+*  potential    - calculate electrostatic site potentials                      *
+********************************************************************************
+
+  Job Started  at 11:05.29  1st November   2011                               
+
+  Number of CPUs =     1
+
+
+  Total number of configurations input =   1
+
+********************************************************************************
+*  Input for Configuration =   1                                               *
+********************************************************************************
+
+  Formula = BeO                                                         
+
+  Number of irreducible atoms/shells =       2
+
+
+  Total number atoms/shells =       2
+
+  Dimensionality = 3               :  Bulk   
+
+
+  Symmetry :
+
+  Crystal family                   :  Cubic       
+  Crystal class  (Groth - 1921)    :  Cubic Hexakistetrahedral             
+
+  Space group (noncentrosymmetric) :  F -4 3 M        
+
+  Patterson group                  :  F m -3 m 
+
+  Cartesian lattice vectors (Angstroms) :
+
+        0.000000    1.920500    1.920500
+        1.920500    0.000000    1.920500
+        1.920500    1.920500    0.000000
+
+  Primitive cell parameters :            Full cell parameters :
+
+  a =   2.7160    alpha =  60.0000       a =   3.8410    alpha =  90.0000
+  b =   2.7160    beta  =  60.0000       b =   3.8410    beta  =  90.0000
+  c =   2.7160    gamma =  60.0000       c =   3.8410    gamma =  90.0000
+
+  Initial volumes (Angstroms**3):
+
+  Primitive cell =          14.166838    Full cell =          56.667352
+
+  Temperature of configuration =  0.000     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Be    c    0.000000    0.000000    0.000000      2.0000    1.000000    
+      2 O     c    0.250000    0.250000    0.250000     -2.0000    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  General input information                                                   *
+********************************************************************************
+
+  Species output for all configurations : 
+
+--------------------------------------------------------------------------------
+  Species    Type    Atomic    Atomic    Charge       Radii (Angs)     Library
+                     Number     Mass       (e)     Cova   Ionic  VDW   Symbol
+--------------------------------------------------------------------------------
+    Be       Core        4       9.01     2.0000   0.350  0.000  0.520          
+    O        Core        8      16.00    -2.0000   0.730  0.000  1.360          
+--------------------------------------------------------------------------------
+
+
+  Lattice summation method               =    Ewald
+  Accuracy factor for lattice sums       =    8.000
+
+
+  Time limit = Infinity
+
+********************************************************************************
+*  Output for configuration   1                                                *
+********************************************************************************
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =           0.00000000 eV
+  Monopole - monopole (real) =          -8.78082229 eV
+  Monopole - monopole (recip)=         -47.94734419 eV
+  Monopole - monopole (total)=         -56.72816649 eV
+--------------------------------------------------------------------------------
+  Total lattice energy : 
+    Primitive unit cell      =         -56.72816649 eV
+    Non-primitive unit cell  =        -226.91266595 eV
+--------------------------------------------------------------------------------
+  Total lattice energy (in kJmol-1): 
+    Primitive unit cell      =           -5473.4009 kJ/(mole unit cells)
+    Non-primitive unit cell  =          -21893.6036 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Electrostatic potential at atomic positions :
+
+-------------------------------------------------------------------------------
+ Site  Atomic      Potential                Derivatives (V/Angs)
+ No.   Label          (V)                 x           y           z
+-------------------------------------------------------------------------------
+     1 Be    c    -28.364083          -0.000000    0.000000   -0.000000
+     2 O     c     28.364083          -0.000000   -0.000000   -0.000000
+-------------------------------------------------------------------------------
+
+  Total time to end of lattice properties =       0.0156 s
+
+
+  Peak dynamic memory used =       0.46 MB 
+
+
+  Timing analysis for GULP :
+
+--------------------------------------------------------------------------------
+  Task / Subroutine                                          Time (Seconds)
+--------------------------------------------------------------------------------
+  Symmetry generation of equivalent positions                     0.0156
+--------------------------------------------------------------------------------
+  Total CPU time                                                  0.0156
+--------------------------------------------------------------------------------
+
+
+  Job Finished at 11:05.29  1st November   2011                               
+

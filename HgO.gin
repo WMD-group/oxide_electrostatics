@@ -1,0 +1,11 @@
+single pot dist
+cell
+6.6129 5.5208 3.5219 90.00 90.00 90.00
+fractional
+Hg  c   0.1136 0.2500 0.2456 1.2040
+O   c   0.3592 0.2500 0.5955 1.4749
+space group
+62
+species
+Hg   core   2.00
+O    core  -2.00

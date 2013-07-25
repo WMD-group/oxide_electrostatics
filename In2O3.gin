@@ -1,0 +1,13 @@
+single pot 
+cell
+10.117 10.117 10.117 90.00 90.00 90.00
+fractional
+In c   0.2500 0.2500 0.2500
+In c   0.4663 0.0000 0.2500
+O  c   0.3912 0.1558 0.3796   
+space group
+206
+species
+In    core   3.00
+Zn    core   2.00
+O     core  -2.00

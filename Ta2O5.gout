@@ -1,0 +1,53 @@
+********************************************************************************
+*                       GENERAL UTILITY LATTICE PROGRAM                        *
+*                                 Julian Gale                                  *
+*                      Nanochemistry Research Institute                        *
+*             Curtin University of Technology, Western Australia               *
+********************************************************************************
+* Version = 3.4.9 * Last modified =   9th February 2010                        *
+********************************************************************************
+*  single       - perform a single point run                                   *
+*  potential    - calculate electrostatic site potentials                      *
+*  distance     - calculate distances                                          *
+********************************************************************************
+
+  Job Started  at 09:52.26  9th November   2011                               
+
+  Number of CPUs =     1
+
+
+  Total number of configurations input =   1
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : The irreducible atom 3    is equivalent to atom 5   
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  Configuration number =   1
+
+  **** Unit cell is not charge neutral    ****
+  **** Sum of charges =   14.0000000000   ****
+  **** Check that a special position atom ****
+  **** coordinate has not been varied     ****
+
+
+  Current coordinates : 
+
+--------------------------------------------------------------------------------
+     No.  Atomic         x            y            z          Charge  Occupancy
+          Number       (frac)       (frac)       (frac)         (e)  
+--------------------------------------------------------------------------------
+      1  Ta    c      0.040000     0.060000     0.000000      5.000000  1.0000
+      2  Ta    c      0.960000     0.000000     0.060000      5.000000  1.0000
+      3  Ta    c      0.960000     0.060000     0.000000      5.000000  1.0000
+      4  Ta    c      0.040000     0.000000     0.060000      5.000000  1.0000
+      5  O     c      0.000000     0.500000     0.500000     -2.000000  1.0000
+      6  O     c      0.250000     0.000000     0.000000     -2.000000  1.0000
+      7  O     c      0.750000     0.000000     0.000000     -2.000000  1.0000
+--------------------------------------------------------------------------------
+
+
+
+ Program terminated by processor     0 in           setup
+

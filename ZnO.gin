@@ -1,0 +1,11 @@
+single pot dist
+cell
+3.2531 3.2531 5.2131 90.00 90.00 120.00
+fractional
+Zn c   1/3 2/3 0.0000
+O  c   1/3 2/3 0.3820   
+space group
+186
+species
+Zn    core   2.00
+O     core  -2.00

@@ -1,0 +1,11 @@
+single pot 
+cell
+5.550 5.550 5.550 90.00 90.00 90.00
+fractional
+Na c   0.2500 0.2500 0.2500
+O  c   0.0000 0.0000 0.0000   
+space group
+225
+species
+Na    core   1.00
+O     core  -2.00

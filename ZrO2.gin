@@ -1,0 +1,12 @@
+single pot dist
+cell
+5.1455 5.20755 5.31075 90.99 99.238 90.00
+fractional
+Zr c   0.27582 0.04112 0.20822
+O  c   0.07032 0.33591 0.34061
+O  c   0.44232 0.75491 0.47891   
+space group
+14
+species
+Zr    core   4.00
+O     core  -2.00

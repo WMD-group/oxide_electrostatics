@@ -1,0 +1,12 @@
+single pot dist
+cell
+5.11265 5.17225 5.29485 90.00 90.00 90.00
+fractional
+Hf c   0.2759 0.0412 0.2078
+O  c   0.0738 0.3468 0.3328
+O  c   0.4468 0.7488 0.4888
+space group
+14
+species
+Hf    core   4.00
+O     core  -2.00

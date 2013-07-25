@@ -1,0 +1,11 @@
+single pot 
+cell
+4.25 4.25 4.25 90.00 90.00 90.00
+fractional
+Co c   0.0000 0.0000 0.0000
+O  c   0.5000 0.5000 0.5000   
+space group
+225
+species
+Co    core   2.00
+O     core  -2.00

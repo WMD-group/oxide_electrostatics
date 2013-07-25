@@ -2,7 +2,7 @@ Oxide-Electrostatics
 ====================
 
 A database of electrostatic calculations performed for binary metal oxides. Calculations run by Jessica Alderson
-(MChem project student at the University of Bath). 
+(MChem project student at the University of Bath).
 
 Used in
 ------------
@@ -10,7 +10,7 @@ Used in
 
 Requirements
 ------------
-To run the input, the code GULP: http://projects.ivec.org/gulp/
+To run the input (*.gin), the code GULP: http://projects.ivec.org/gulp/. To read the output files (*gout), any text editor.
 
 Disclaimer
 ----------

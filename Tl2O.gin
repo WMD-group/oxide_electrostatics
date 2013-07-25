@@ -1,0 +1,12 @@
+single pot dist
+cell
+3.516 3.516 37.84 90.00 90.00 120.00
+fractional
+Tl  c   0.0000 0.0000 0.1230
+Tl  c   0.0000 0.0000 0.2900
+O   c   0.0000 0.0000 0.4170
+space group
+166
+species
+Tl   core   1.00
+O    core  -2.00

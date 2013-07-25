@@ -1,0 +1,12 @@
+single pot 
+cell
+9.846 9.846 9.846 90.00 90.00 90.00
+fractional
+Sc c   0.2500 0.2500 0.2500
+Sc c   0.9645 0.0000 0.2500      
+O c   0.3914 0.1548 0.3814   
+space group
+206
+species
+Sc    core   3.00
+O    core  -2.00

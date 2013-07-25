@@ -1,0 +1,179 @@
+********************************************************************************
+*                       GENERAL UTILITY LATTICE PROGRAM                        *
+*                                 Julian Gale                                  *
+*                      Nanochemistry Research Institute                        *
+*             Curtin University of Technology, Western Australia               *
+********************************************************************************
+* Version = 3.4.9 * Last modified =   9th February 2010                        *
+********************************************************************************
+*  single       - perform a single point run                                   *
+*  potential    - calculate electrostatic site potentials                      *
+*  distance     - calculate distances                                          *
+********************************************************************************
+
+  Job Started  at 10:29.20  9th November   2011                               
+
+  Number of CPUs =     1
+
+
+  Total number of configurations input =   1
+
+********************************************************************************
+*  Input for Configuration =   1                                               *
+********************************************************************************
+
+  Formula = Nb16O32                                                     
+
+  Number of irreducible atoms/shells =       6
+
+
+  Total number atoms/shells =      48
+
+  Dimensionality = 3               :  Bulk   
+
+
+  Symmetry :
+
+  Crystal family                   :  Tetragonal  
+  Crystal class  (Groth - 1921)    :  Tetragonal Dipyramidal               
+
+  Space group (centrosymmetric)    :  I 41/A          
+
+  Patterson group                  :  I 4/m    
+
+  Cartesian lattice vectors (Angstroms) :
+
+       -6.848050    6.848050    2.990550
+        6.848050   -6.848050    2.990550
+        6.848050    6.848050   -2.990550
+
+  Primitive cell parameters :            Full cell parameters :
+
+  a =  10.1358    alpha =  94.9941       a =  13.6961    alpha =  90.0000
+  b =  10.1358    beta  =  94.9941       b =  13.6961    beta  =  90.0000
+  c =  10.1358    gamma = 145.6792       c =   5.9811    gamma =  90.0000
+
+  Initial volumes (Angstroms**3):
+
+  Primitive cell =         560.976805    Full cell =        1121.953610
+
+  Temperature of configuration =  0.000     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Nb    c    0.116100    0.123200    0.488300      4.0000    1.000000    
+      2 Nb    c    0.133100    0.124200    0.031200      4.0000    1.000000    
+      3 O     c    0.987100    0.133200    0.994700     -2.0000    1.000000    
+      4 O     c    0.976100    0.126200    0.485300     -2.0000    1.000000    
+      5 O     c    0.274100    0.119200    0.987300     -2.0000    1.000000    
+      6 O     c    0.265100    0.126200    0.509300     -2.0000    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+  Distance calculation :
+
+
+  Cutoff for distances  =      2.000000 Angstroms
+
+--------------------------------------------------------------------------------
+  Asymmetric unit site  Full lattice sites    No.  Distance      No.  Distance
+      No.   At.No.            At.No.                (Angs)             (Angs) 
+--------------------------------------------------------------------------------
+       1   Nb    core        O     core         1    1.3761        1    1.9180
+--------------------------------------------------------------------------------
+       2   Nb    core        O     core         1    1.5322        1    1.8697
+                                                1    1.9501
+--------------------------------------------------------------------------------
+       3   O     core        Nb    core         1    1.5322
+--------------------------------------------------------------------------------
+       4   O     core        Nb    core         1    1.3761        1    1.9180
+--------------------------------------------------------------------------------
+       5   O     core        Nb    core         1    1.8697        1    1.9501
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  General input information                                                   *
+********************************************************************************
+
+  Species output for all configurations : 
+
+--------------------------------------------------------------------------------
+  Species    Type    Atomic    Atomic    Charge       Radii (Angs)     Library
+                     Number     Mass       (e)     Cova   Ionic  VDW   Symbol
+--------------------------------------------------------------------------------
+    Nb       Core       41      92.91     4.0000   1.480  0.000  2.210          
+    O        Core        8      16.00    -2.0000   0.730  0.000  1.360          
+--------------------------------------------------------------------------------
+
+
+  Lattice summation method               =    Ewald
+  Accuracy factor for lattice sums       =    8.000
+
+
+  Time limit = Infinity
+
+********************************************************************************
+*  Output for configuration   1                                                *
+********************************************************************************
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =           0.00000000 eV
+  Monopole - monopole (real) =       -1365.34006141 eV
+  Monopole - monopole (recip)=        -925.39287380 eV
+  Monopole - monopole (total)=       -2290.73293521 eV
+--------------------------------------------------------------------------------
+  Total lattice energy : 
+    Primitive unit cell      =       -2290.73293521 eV
+    Non-primitive unit cell  =       -4581.46587043 eV
+--------------------------------------------------------------------------------
+  Total lattice energy (in kJmol-1): 
+    Primitive unit cell      =         -221020.7112 kJ/(mole unit cells)
+    Non-primitive unit cell  =         -442041.4224 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Electrostatic potential at atomic positions :
+
+-------------------------------------------------------------------------------
+ Site  Atomic      Potential                Derivatives (V/Angs)
+ No.   Label          (V)                 x           y           z
+-------------------------------------------------------------------------------
+     1 Nb    c    -44.670095          -1.160735    7.364013   -2.831508
+     2 Nb    c    -44.788026          -0.013899    3.401884    2.521846
+     3 O     c     27.051112         -11.197610   -1.863500   -1.859963
+     4 O     c     32.404866         -15.025825   -3.888489    3.485980
+     5 O     c     26.669917           4.906083    2.486571    0.926910
+     6 O     c     21.299481           0.121722    0.180678   -1.690445
+-------------------------------------------------------------------------------
+
+  Total time to end of lattice properties =       0.0312 s
+
+
+  Peak dynamic memory used =       0.54 MB 
+
+
+  Timing analysis for GULP :
+
+--------------------------------------------------------------------------------
+  Task / Subroutine                                          Time (Seconds)
+--------------------------------------------------------------------------------
+  Calculation of reciprocal space energy and derivatives          0.0156
+--------------------------------------------------------------------------------
+  Total CPU time                                                  0.0312
+--------------------------------------------------------------------------------
+
+
+  Job Finished at 10:29.20  9th November   2011                               
+
