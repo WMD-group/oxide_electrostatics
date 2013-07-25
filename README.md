@@ -1,8 +1,7 @@
 Oxide-Electrostatics
 ====================
 
-A database of electrostatic calculations performed for binary metal oxides. Calculations run by Jessica Alderson
-(MChem project student at the University of Bath).
+A database of electrostatic calculations performed for binary metal oxides from Li2O to PoO2. Calculations run by Jessica Alderson (MChem project student at the University of Bath 2011/2012).
 
 Used in
 ------------
