@@ -9,9 +9,9 @@ Used in
 
 Requirements
 ------------
-To run the input (*.gin), the code [GULP](http://nanochemistry.curtin.edu.au/gulp/). To read the output files (*gout), any text editor.
+To run the input (_.gin_), the code [GULP](http://nanochemistry.curtin.edu.au/gulp/). To read the output files (_.gout_), any text editor.
 
 Disclaimer
 ----------
-This file is not affiliated with *GULP*. Feel free to use and modify, but do so at your own risk.
+This file is not affiliated with [GULP](http://nanochemistry.curtin.edu.au/gulp/). Feel free to use and modify, but do so at your own risk.
 
