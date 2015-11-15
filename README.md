@@ -5,11 +5,11 @@ A database of electrostatic calculations performed for binary metal oxides from 
 
 Used in
 ------------
-- "Electron energies of metal oxides" Under Review (2013).
+- "Prediction of Electron Energies in Metal Oxides" [Accounts of Chemical Research 47, 364 (2014)](http://pubs.acs.org/doi/abs/10.1021/ar400115x)
 
 Requirements
 ------------
-To run the input (*.gin), the code GULP: http://projects.ivec.org/gulp/. To read the output files (*gout), any text editor.
+To run the input (*.gin), the code [GULP](http://nanochemistry.curtin.edu.au/gulp/). To read the output files (*gout), any text editor.
 
 Disclaimer
 ----------
